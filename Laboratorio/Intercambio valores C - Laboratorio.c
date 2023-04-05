@@ -3,7 +3,7 @@
 
 int main(int argc, char *argv[]) {
 	int a,b,c;
-	printf("Ingrese el primer valor de A: ");
+	printf("\nIngrese el primer valor de A: ");
 	scanf("%i",&a);
 	printf("Ingrese el segundo valor de B: ");
 	scanf("%i",&b);

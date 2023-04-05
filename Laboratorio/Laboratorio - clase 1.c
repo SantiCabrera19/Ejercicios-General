@@ -2,13 +2,12 @@
 #include <conio.h>
 #define mensaje "Ingrese aqui: "
 
-int main() {
+int main(int argc, char *argv[]) {
 	char p;
 	printf("ingresar un caracter por teclado: ");
 	p=getchar();
-	printf("El caracter ingresado es: ");
+	printf("El valor ingresado por teclado: ");
 	putchar(p);
-	getch();
 	return 0;
 }
 

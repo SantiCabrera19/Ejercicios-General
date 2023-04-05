@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <conio.h>
 
-int main() {
+
+int main(int argc, char *argv[]) {
 	char p;
 	printf("ingresar un caracter por teclado: ");
 	p=getchar();

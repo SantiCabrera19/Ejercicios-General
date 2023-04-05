@@ -4,14 +4,13 @@
 
 int main() 
 {
-	float a, b, c, d;
+	int a, b, c;
 	printf("Ingrese el precio del articulo: ");
-	scanf("%f",&a);
+	scanf("%i",&a);
 	printf("Ingrese el numero de unidades del articulo: ");
-	scanf("%f",&b);
+	scanf("%i",&b);
 	c = a * b;
-	d = c - c*15/100;
-	printf("El precio a pagar es de: %f", d);
+	printf("El precio a pagar es de: %i",c*15/100);
 	getch();
 	return 0;
 }
