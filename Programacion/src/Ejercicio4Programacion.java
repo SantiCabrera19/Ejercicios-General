@@ -11,5 +11,6 @@ public class Ejercicio4Programacion {
         double promedio = ((Math.pow(num2, 3)) + (Math.pow(num2, 3))) / 2;
         System.out.println(calculo1);
         System.out.println(promedio);
+        input.close();
     }
 }

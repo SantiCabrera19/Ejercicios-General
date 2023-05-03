@@ -20,5 +20,6 @@ public class Ejercicio3Programacion {
             double salario = hora_base * horas_trabajadas;
             System.out.println("Tu salario es: " + salario);
         }
+        input.close();
     }
 }

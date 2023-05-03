@@ -9,5 +9,6 @@ public class EjericiosProgramacion {
         float kilometros = input.nextFloat();
         precio_final = precio_base * kilometros;
         System.out.println(precio_final);
+        input.close();
     }
 }

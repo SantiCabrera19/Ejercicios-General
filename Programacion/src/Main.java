@@ -13,6 +13,6 @@ public class Main {
         } else {
             System.out.println("El número es mayor que 5");
         }
-
+        input.close();
     }
 }

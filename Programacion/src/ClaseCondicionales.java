@@ -14,5 +14,7 @@ public class ClaseCondicionales {
             System.out.println("El total a pagar es de :" + total_pagar);
         }
 
+        input.close();
+
     }
 }

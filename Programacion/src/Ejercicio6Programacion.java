@@ -14,6 +14,7 @@ public class Ejercicio6Programacion {
         double promedio_alumnos_m = (alumnos_m / alumnos_totales)*100;
         System.out.println("El porcentaje de alumnos varones es de %" + promedio_alumnos_v);
         System.out.println("El porcentaje de alumnas mujeres es de %" + promedio_alumnos_m);
+        input.close();
 
     }
 }

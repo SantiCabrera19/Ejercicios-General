@@ -10,6 +10,7 @@ public class Ejercicio5Programacion {
         int c = input.nextInt();
         int x = a * 100 + b * 10 + c;
         System.out.println("Los números " + a + ", " + b + " y " + c + " concatenados son: " + x);
+        input.close();
     }
 }
 

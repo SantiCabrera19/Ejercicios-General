@@ -15,5 +15,6 @@ public class Ejercicio2Programacion {
         System.out.println("La cantidad que recibira Urgencias es: " + urgencias);
         System.out.println("La cantidad que recibira Pediatria es: " + pediatria);
         System.out.println("La cantidad que recibira Traumatologia es: " + traumatologia);
+        input.close();
     }
 }

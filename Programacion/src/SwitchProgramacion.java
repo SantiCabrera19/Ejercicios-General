@@ -31,6 +31,6 @@ public class SwitchProgramacion {
             default:
                 System.out.println("Numero fuera de RANGO");
         }
-
+        input.close();
     }
 }

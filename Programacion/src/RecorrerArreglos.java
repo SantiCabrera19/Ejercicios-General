@@ -13,6 +13,7 @@ public class RecorrerArreglos {
         for (int i = 0; i < ventasemanal.length; i++) {
             System.out.println("Ventas del dia " + obtenerDia(i) + ": " + ventasemanal[i]);
         }
+        input.close();
     }
 
     public static String obtenerDia(int dia) {
@@ -43,6 +44,7 @@ public class RecorrerArreglos {
         }
 
         return diasemana;
+        
     }
 }
 

@@ -28,6 +28,7 @@ public class Ejerciocio3Iterativas {
         while(opcion == 1);
         System.out.println("el total de los numeros ingresados es: " + total);
         System.out.println("Y su promedio es de: " + pro);
+        input.close();
     }
 
 }

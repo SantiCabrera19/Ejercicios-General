@@ -17,5 +17,6 @@ public class ClaseCondicionales2 {
             System.out.println("El segundo Hermano es Mayor");
             System.out.println("Y su diferencia de edad es de: " + diferencia2 + " Años");
         }
+        input.close();
     }
 }
