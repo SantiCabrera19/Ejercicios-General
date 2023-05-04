@@ -1,5 +1,4 @@
 
-
 vartexto = input("Ingresa un texto: ")
 varletras = input("Ingresa tres letras separadas por espacios: ").split()
 
