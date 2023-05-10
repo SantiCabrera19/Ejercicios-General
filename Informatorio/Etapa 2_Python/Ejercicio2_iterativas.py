@@ -9,7 +9,7 @@ numero = int(input("Ingrese un número: "))
 suma = 0
 
 # Itero desde 1 hasta el número ingresado
-for i in range(1, numero + 1):
+for i in range(1, numero + 1, 1):
     suma = suma + i
 
 # Muestro el resultado
