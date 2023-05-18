@@ -4,9 +4,9 @@ varletras = input("Ingresa tres letras separadas por espacios: ").split()
 
 '''Contador de letras en especifico'''
 
-for varletra in varletras.lower():
+for varletra in varletras:
     cantidad = 0
-    for caracter in vartexto.lower():
+    for caracter in vartexto:
         if caracter == varletra:
             cantidad += 1
     print(f"La letra '{varletra}' aparece {cantidad} veces.")
