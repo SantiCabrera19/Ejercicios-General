@@ -13,7 +13,6 @@ def validarInmueble(inmueble):
     
     return True
 
-
 # Funcion que agrega y quita inmuebles de la lista
 def manipularInmuebles(lista_inmuebles):
     accion = input("¿Qué acción desea realizar? (agregar/quitar): ")
@@ -49,7 +48,6 @@ def manipularInmuebles(lista_inmuebles):
     else:
         print("Acción inválida.")
 
-
 # Función que cambia el estado del inmueble
 def estadoDeInmueble(lista_inmuebles):
     print("Lista de inmuebles:")
@@ -65,7 +63,6 @@ def estadoDeInmueble(lista_inmuebles):
     else:
         print("Número de inmueble inválido.")
 
-
 # Función que busca un inmueble en función a un presupuesto dado
 def busquedaInmueble(lista_inmuebles, presupuesto):
     inmuebles_encontrados = []
@@ -78,7 +75,6 @@ def busquedaInmueble(lista_inmuebles, presupuesto):
                 inmuebles_encontrados.append(inmueble_con_precio)
     
     return inmuebles_encontrados
-
 
 # Función para calcular el precio de un inmueble en función de la zona
 def calcularPrecio(inmueble):
@@ -93,7 +89,6 @@ def calcularPrecio(inmueble):
         precio = precio_base * (1 - antiguedad / 100) * 2
     
     return precio
-
 
 # Lista existente de inmuebles
 lista_inmuebles = [
@@ -120,5 +115,6 @@ if resultados_busqueda:
 else:
     print("No se encontraron inmuebles que cumplan con los criterios de búsqueda.")
 
+calcularPrecio("A")
 
 
