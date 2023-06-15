@@ -90,7 +90,6 @@ class Colaborador(Usuario):
         articulo.publicar()
         print(f'Usuario {self.username} ha publicado el artículo "{articulo.titulo}".')
 
-# Código de prueba
 opcion = input("¿Deseas registrar un nuevo usuario (R) o iniciar sesión (I)? ").lower()
 
 if opcion == "r":
