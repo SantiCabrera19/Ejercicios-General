@@ -78,7 +78,7 @@ def busquedaInmueble(lista_inmuebles, presupuesto):
 
 # Función para calcular el precio de un inmueble en función de la zona
 def calcularPrecio(inmueble):
-    precio_base = inmueble["metros"] * 100 + inmueble["habitaciones"] * 500 + int(inmueble["garaje"]) * 1500
+    precio_base = inmueble['metros'] * 100 + inmueble["habitaciones"] * 500 + int(inmueble["garaje"]) * 1500
     antiguedad = 2023 - inmueble["año"]
 
     if inmueble["zona"] == "A":
@@ -115,6 +115,5 @@ if resultados_busqueda:
 else:
     print("No se encontraron inmuebles que cumplan con los criterios de búsqueda.")
 
-calcularPrecio("A")
 
 
